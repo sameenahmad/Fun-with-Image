@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Css Variables with js</title>
+    <link rel="stylesheet" href="cssvariables.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Update CSS variables with JS</h1>
+    </header>
+    <div class="container">
+      Spacing
+      <input
+        type="range"
+        min="1"
+        max="100"
+        onchange="evalSlider();"
+        id="spacing"
+      />
+      Blur<input
+        type="range"
+        min="1"
+        max="100"
+        id="blur"
+        onchange="evalSlider();"
+      />
+      Base color
+      <input
+        type="range"
+        min="1"
+        max="100"
+        id="baseColor"
+        onchange="evalSlider();"
+      />
+    </div>
+    <div class="spacingContainer">
+      <img class="img" src= 'tenor.gif';
+    </div>
+    <script src="cssvariables.js"></script>
+  </body>
+</html>
