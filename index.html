@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Css Variables with js</title>
-    <link rel="stylesheet" href="cssvariables.css" />
+    <link rel="stylesheet" href="image.css" />
   </head>
   <body>
     <header>
@@ -17,7 +17,8 @@
         type="range"
         min="1"
         max="100"
-        onchange="evalSlider();"
+        onchange="evalSlider()"
+        ;
         id="spacing"
       />
       Blur<input
@@ -25,7 +26,8 @@
         min="1"
         max="100"
         id="blur"
-        onchange="evalSlider();"
+        onchange="evalSlider()"
+        ;
       />
       Base color
       <input
@@ -33,12 +35,11 @@
         min="1"
         max="100"
         id="baseColor"
-        onchange="evalSlider();"
+        onchange="evalSlider()"
+        ;
       />
     </div>
-    <div class="spacingContainer">
-      <img class="img" src= 'tenor.gif';
-    </div>
-    <script src="cssvariables.js"></script>
+    <div id="changeSpace"><img class="img" src="tenor.gif" />;</div>
+    <script src="image.js"></script>
   </body>
 </html>
